@@ -1,0 +1,99 @@
+[Wed Dec 30 12:13:54 2020] Reading CPU information from SystemInfo.xml
+[Wed Dec 30 12:13:54 2020] Processors: 1, Cores per processor: 4
+[Wed Dec 30 12:13:54 2020] Requested cores: 0
+[Wed Dec 30 12:13:54 2020] Using 5 ranks
+[Wed Dec 30 12:13:54 2020] analysis path: X:\waterturbine\Waterturbine\Design 1\Scenario 1
+[Wed Dec 30 12:13:54 2020] Listen on port 50278
+[Wed Dec 30 12:13:54 2020] Email file: C:\ProgramData\Autodesk\CFD 2021\Analyze/job3/email.xml
+[Wed Dec 30 12:13:54 2020] Start processing tasks
+[Wed Dec 30 12:13:54 2020] Starting task: Start Messaging
+[Wed Dec 30 12:13:54 2020] Task finished in 0.00 sec
+[Wed Dec 30 12:13:54 2020] Starting task: Start Notifications
+[Wed Dec 30 12:13:54 2020] Task finished in 0.00 sec
+[Wed Dec 30 12:13:54 2020] Starting task: Run Job
+[Wed Dec 30 12:13:54 2020] startJob
+[Wed Dec 30 12:13:54 2020] Creating C:\ProgramData\Autodesk\CFD 2021\Analyze/job3/job.bat
+[Wed Dec 30 12:13:54 2020] Command: cmd.exe /c job.bat
+[Wed Dec 30 12:13:54 2020]  output:C:\ProgramData\Autodesk\CFD 2021\Analyze\job3>cd C:\Program Files\Autodesk\CFD 2021
+[Wed Dec 30 12:13:54 2020]  output:C:\Program Files\Autodesk\CFD 2021>"C:\Program Files\Autodesk\CFD 2021/mpiexec.exe" -n 5 "C:\Program Files\Autodesk\CFD 2021/CFDSolver.exe" "X:\waterturbine\Waterturbine\Design 1\Scenario 1/solver/Sc
+[Wed Dec 30 12:13:54 2020]  output:enario 1" -jobId=3 -cloudJobId=  -gui  -useJobFile  -port=50278 -mpi
+[Wed Dec 30 12:13:54 2020]  output:Server = 127.0.0.1
+[Wed Dec 30 12:13:54 2020]  output:Program Dir = C:\Program Files\Autodesk\CFD 2021
+[Wed Dec 30 12:13:54 2020]  output:Analysis Path = X:\waterturbine\Waterturbine\Design 1\Scenario 1/solver
+[Wed Dec 30 12:13:54 2020]  output:Analysis Name = Scenario 1
+[Wed Dec 30 12:13:54 2020]  output:Headnode is:C940
+[Wed Dec 30 12:13:54 2020]  output:Number of ranks: 5
+[Wed Dec 30 12:13:54 2020]  output:Number of Nodes: 1
+[Wed Dec 30 12:13:54 2020]  output:Node Names:
+[Wed Dec 30 12:13:54 2020]  output:C940
+[Wed Dec 30 12:13:54 2020]  output:*** CFD Screen File Output ***
+[Wed Dec 30 12:13:54 2020]  output:CFD 2021 (2021) [20201120]
+[Wed Dec 30 12:13:54 2020]  output:Job Name = Scenario 1   Date created: Wed Dec 30 12:13:54 2020
+[Wed Dec 30 12:13:56 2020] Processing results ready
+[Wed Dec 30 12:13:56 2020]  output:1 file(s) copied.
+[Wed Dec 30 12:13:56 2020]  output:Partitioning a graph of size 7241 serially
+[Wed Dec 30 12:13:56 2020]  output:Final 4-way CUT:    365 	Balance: 1.000   avg: 1.000
+[Wed Dec 30 12:13:56 2020]  output:Broadcast element topology
+[Wed Dec 30 12:13:56 2020]  output:Distributing element data
+[Wed Dec 30 12:13:56 2020]  output:Processor 0 element parsing boundaries 0 1810
+[Wed Dec 30 12:13:56 2020]  output:Processor 1 element parsing boundaries 0 1810
+[Wed Dec 30 12:13:56 2020]  output:Processor 2 element parsing boundaries 0 1811
+[Wed Dec 30 12:13:56 2020]  output:Processor 3 element parsing boundaries 0 1810
+[Wed Dec 30 12:13:56 2020]  output:Distributing nodes
+[Wed Dec 30 12:13:56 2020]  output:Processor 0 node parsing boundaries 0 0 549 635
+[Wed Dec 30 12:13:56 2020]  output:Processor 1 node parsing boundaries 0 0 551 626
+[Wed Dec 30 12:13:56 2020]  output:Processor 2 node parsing boundaries 0 0 551 625
+[Wed Dec 30 12:13:56 2020]  output:Processor 3 node parsing boundaries 0 0 550 636
+[Wed Dec 30 12:13:56 2020]  output:local to global mapping
+[Wed Dec 30 12:13:56 2020]  output:Distributing field arrays
+[Wed Dec 30 12:13:56 2020]  output:Field Vector updates
+[Wed Dec 30 12:13:56 2020]  output:Distributing transient field arrays
+[Wed Dec 30 12:13:56 2020]  output:Distributing element BC data
+[Wed Dec 30 12:13:56 2020]  output:NumCFMSurfs                               0>>>>>
+[Wed Dec 30 12:13:56 2020]  output:>>>>1>>>>>>>>>2
+[Wed Dec 30 12:13:56 2020]  output:>>>>>>>>
+[Wed Dec 30 12:13:56 2020]  output:>3>
+[Wed Dec 30 12:13:56 2020]  output:>>>
+[Wed Dec 30 12:13:56 2020]  output:>>>
+[Wed Dec 30 12:13:56 2020]  output:>>4>>>>>>>>
+[Wed Dec 30 12:13:56 2020]  output:>5>>>>
+[Wed Dec 30 12:13:56 2020]  output:>>>>>6>>>>>>>>
+[Wed Dec 30 12:13:56 2020]  output:>7>
+[Wed Dec 30 12:13:56 2020]  output:>>>
+[Wed Dec 30 12:13:56 2020]  output:>>>>>8>>>>>>>>>9>>>>
+[Wed Dec 30 12:13:56 2020]  output:>>>>>$ 0.001995 s
+[Wed Dec 30 12:13:56 2020]  output:1>>>>>>>>>2>>>>>>>>>3>>>>>>>>>4>>>>>>>>>5>>>>>>>>>6>>>>>>>>>7>>>>>>>>>8>>>>>>>>>9>>>>>>>>>$>>>>>>>>>11 0.005659 s
+[Wed Dec 30 12:13:56 2020]  output:Set up thermal matrix
+[Wed Dec 30 12:13:56 2020]  output:Building thermal ghost node communications
+[Wed Dec 30 12:13:56 2020]  output:Building thermal assembly communications
+[Wed Dec 30 12:13:56 2020]  output:Building off-processor buffers
+[Wed Dec 30 12:13:56 2020]  output:Building optimal comm partners
+[Wed Dec 30 12:13:56 2020]  output:Checking parallel mapping pointers...
+[Wed Dec 30 12:13:56 2020]  output:Slaves report no thermal mapping errors
+[Wed Dec 30 12:13:56 2020]  output:Master reports no thermal mapping errors
+[Wed Dec 30 12:13:56 2020]  output:Parallel Set Up required 0.041000 seconds - Total
+[Wed Dec 30 12:13:56 2020]  output:Distributing flow length data
+[Wed Dec 30 12:13:56 2020] Processing results ready
+[Wed Dec 30 12:13:56 2020]  output:Ave Values = 0.000000 0.000000 0.000000 0.000000 273.150000 0.000000 0.000000 0.000000
+[Wed Dec 30 12:13:56 2020]  output:Ave Values = 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+[Wed Dec 30 12:13:56 2020]  output:Ave Values = 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+[Wed Dec 30 12:13:56 2020]  output:Ave Values = 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+[Wed Dec 30 12:13:56 2020]  output:Flat lines detected in Convergence Monitor - Auto Stop.
+[Wed Dec 30 12:13:56 2020] Processing results ready
+[Wed Dec 30 12:13:57 2020] Processing solver exited
+[Wed Dec 30 12:13:57 2020]  output:Ave Values = 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+[Wed Dec 30 12:13:57 2020]  output:solver has finished exit code=0
+[Wed Dec 30 12:13:57 2020]  output:C:\Program Files\Autodesk\CFD 2021>set E=0
+[Wed Dec 30 12:13:57 2020]  output:C:\Program Files\Autodesk\CFD 2021>exit 0
+[Wed Dec 30 12:13:57 2020] Job finished with exit code = 0
+[Wed Dec 30 12:13:57 2020] Task finished in 3.39 sec
+[Wed Dec 30 12:13:57 2020] Starting task: Stop Notifications
+[Wed Dec 30 12:13:57 2020] Stopping mail server
+[Wed Dec 30 12:13:57 2020] Mail server has stopped
+[Wed Dec 30 12:13:57 2020] Stopping mail server thread
+[Wed Dec 30 12:13:57 2020] Mail server thread has stopped
+[Wed Dec 30 12:13:57 2020] Task finished in 0.00 sec
+[Wed Dec 30 12:13:57 2020] Starting task: Stop Messaging
+[Wed Dec 30 12:13:57 2020] Stopping messaging
+[Wed Dec 30 12:13:57 2020] Task finished in 0.00 sec
+[Wed Dec 30 12:13:57 2020] Finished processing tasks in 3.39 sec

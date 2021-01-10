@@ -1,0 +1,719 @@
+[15:23:09] Cannot find a flags file
+[15:23:09] Loading qm files
+[15:23:09] System language is English
+[15:23:10] Completed pre-event loop tasks in 0.884 sec
+[15:23:10] Start processing tasks
+[15:23:10] Starting task: Clt::InitializationTasks::initializeMainWindowUI
+[15:23:10] Creating main view...
+[15:23:10] Creating actions...
+[15:23:10] Creating quick widgets...
+[15:23:10] Creating panel...
+[15:23:10] Creating status bar...
+[15:23:10] Creating tool bar...
+[15:23:10] Initializing menu...
+[15:23:10] Task finished in 0.27 sec
+[15:23:10] Starting task: Clt::InitializationTasks::initializeApplicationFrame
+[15:23:11] Task finished in 0.44 sec
+[15:23:11] Starting task: Clt::InitializationTasks::initializeWebServices
+[15:23:12] Task finished in 0.92 sec
+[15:23:12] Starting task: Clt::InitializationTasks::initializeAirLook
+[15:23:13] Task finished in 1.05 sec
+[15:23:13] Starting task: Clt::InitializationTasks::initializeServerGroup
+[15:23:13] Task finished in 0.00 sec
+[15:23:13] Starting task: Clt::InitializationTasks::initializeHelpManager
+[15:23:13] Task finished in 0.00 sec
+[15:23:13] Starting task: Clt::InitializationTasks::setMainWindowUIState
+[15:23:13] Task finished in 0.14 sec
+[15:23:13] Starting task: Clt::InitializationTasks::assignShortcuts
+[15:23:13] Task finished in 0.00 sec
+[15:23:13] Starting task: Clt::InitializationTasks::initializeScriptJobEvents
+[15:23:13] Task finished in 0.00 sec
+[15:23:13] Starting task: Clt::InitializationTasks::initializeGAT
+[15:23:13] Task finished in 0.00 sec
+[15:23:13] Starting task: Clt::InitializationTasks::createGeoMeshMessageHandler
+[15:23:13] Task finished in 0.00 sec
+[15:23:13] Starting task: Clt::InitializationTasks::initializeLicensing
+[15:23:13] Creating license manager...
+[15:23:13] Initializing license manager...
+[15:23:13] Listen for lost license signal...
+[15:23:13] Task finished in 0.00 sec
+[15:23:13] Starting task: Checkout CFD UI
+[15:23:13] Authorizing CFD UI...
+[15:23:16] Success
+[15:23:16] Task finished in 2.68 sec
+[15:23:16] Starting task: Clt::InitializationTasks::checkForLicensingError
+[15:23:16] Task finished in 0.04 sec
+[15:23:16] Starting task: Clt::InitializationTasks::showMainWindow
+[15:23:16] Loading layout...
+[15:23:16] Task finished in 0.36 sec
+[15:23:16] Starting task: Clt::InitializationTasks::hideSplashScreen
+[15:23:16] Task finished in 0.00 sec
+[15:23:16] Starting task: Clt::InitializationTasks::initializeCustomResults
+[15:23:16] Task finished in 0.00 sec
+[15:23:16] Starting task: Clt::InitializationTasks::handleExternalLaunchFromCAD
+[15:23:16] Task finished in 0.00 sec
+[15:23:16] Starting task: Clt::InitializationTasks::initializePythonHooks
+[15:23:16] Loading CFD resource file...
+[15:23:17] Task finished in 0.29 sec
+[15:23:17] Starting task: Clt::InitializationTasks::runScript
+[15:23:17] Task finished in 0.00 sec
+[15:23:17] Finished processing tasks in 6.56 sec
+[15:23:40] External fragmentation is 0
+[15:23:40] Internal fragmentation is 0.95988
+[15:23:40] External fragmentation is 0
+[15:23:40] Internal fragmentation is 0.0202976
+[15:23:41] External fragmentation is 0.373591
+[15:23:41] Internal fragmentation is 0.0102268
+[15:24:13] ### Critical: E:\CI\Jenkins\master\Projects\Client\source\clt_job_submitter.cpp 833
+The simulation cannot run because the design geometry is being updated.
+[15:24:19] ### Critical: E:\CI\Jenkins\master\Projects\Client\source\clt_job_submitter.cpp 833
+The simulation cannot run because the design geometry is being updated.
+[15:24:25] ### Critical: E:\CI\Jenkins\master\Projects\Client\source\clt_job_submitter.cpp 833
+The simulation cannot run because the design geometry is being updated.
+[15:24:59] ### Critical: E:\CI\Jenkins\master\Projects\Client\source\clt_job_submitter.cpp 833
+The simulation cannot run because the design geometry is being updated.
+[15:25:19] ### Critical: E:\CI\Jenkins\master\Projects\Client\source\clt_job_submitter.cpp 833
+The simulation cannot run because the design geometry is being updated.
+[15:25:28] ### Critical: E:\CI\Jenkins\master\Projects\Client\source\clt_job_submitter.cpp 833
+The simulation cannot run because the design geometry is being updated.
+[15:27:46] Analysis::writeGBIFile = 0 sec
+[15:27:46] Login expiration: Wed Jan 13 12:04:26 2021
+[15:27:46] Token expiration: Fri Jan 1 12:04:26 2021
+[15:27:46] Analysis::exportJobFiles = 0.008 sec
+[15:27:46] setup_1/Design 1/Scenario 1 job started at Wed Dec 30 15:27:46 2020 on C940
+[15:27:46] setup_1/Design 1/Scenario 1 mesher started at Wed Dec 30 15:27:46 2020 on C940
+[15:27:58] setup_1/Design 1/Scenario 1 mesher finished at Wed Dec 30 15:27:58 2020 on C940 with code = 0
+[15:27:58] Analysis::importMesherFiles = 0.013 sec
+[15:27:59] CADModel::loadGeometryDatabase = 0.45 sec
+[15:27:59] Mesher finished copying files
+[15:27:59] setup_1/Design 1/Scenario 1 solver started at Wed Dec 30 15:27:58 2020 on C940
+[15:28:02] getJobUpdate start
+[15:28:03] VizDataInterface::getBoundaryFEData = 0.097 sec
+[15:28:03] VizDataInterface::setupWallOutlineData = 0.01 sec
+[15:28:03] VizDataInterface::getBoundaryFEData = 0.121 sec
+[15:28:03] VizDataInterface::setupWallOutlineData = 0.013 sec
+[15:28:03] getJobUpdate finished
+[15:28:04] Could not find message key: (solver, AnalyzeC, Turbulent Incompressible Flow is ON)
+[15:28:04] Could not find message key: (solver, AnalyzeC, Turbulence model: Standard k-epsilon)
+[15:28:04] Could not find message key: (solver, AnalyzeC, Intelligent Wall Formulation: OFF)
+[15:28:04] getJobUpdate start
+[15:28:04] getJobUpdate finished
+[15:28:05] getJobUpdate start
+[15:28:05] getJobUpdate finished
+[15:28:06] getJobUpdate start
+[15:28:06] getJobUpdate finished
+[15:28:06] getJobUpdate start
+[15:28:07] getJobUpdate finished
+[15:28:07] getJobUpdate start
+[15:28:07] getJobUpdate finished
+[15:28:08] getJobUpdate start
+[15:28:08] getJobUpdate finished
+[15:28:09] getJobUpdate start
+[15:28:09] getJobUpdate finished
+[15:28:10] getJobUpdate start
+[15:28:10] getJobUpdate finished
+[15:28:10] getJobUpdate start
+[15:28:10] getJobUpdate finished
+[15:28:11] getJobUpdate start
+[15:28:11] getJobUpdate finished
+[15:28:12] getJobUpdate start
+[15:28:12] getJobUpdate finished
+[15:28:13] getJobUpdate start
+[15:28:13] getJobUpdate finished
+[15:28:14] getJobUpdate start
+[15:28:14] getJobUpdate finished
+[15:28:15] getJobUpdate start
+[15:28:15] getJobUpdate finished
+[15:28:16] getJobUpdate start
+[15:28:16] getJobUpdate finished
+[15:28:17] getJobUpdate start
+[15:28:17] getJobUpdate finished
+[15:28:18] getJobUpdate start
+[15:28:18] getJobUpdate finished
+[15:28:19] getJobUpdate start
+[15:28:19] getJobUpdate finished
+[15:28:20] getJobUpdate start
+[15:28:20] getJobUpdate finished
+[15:28:21] getJobUpdate start
+[15:28:21] getJobUpdate finished
+[15:28:22] getJobUpdate start
+[15:28:22] getJobUpdate finished
+[15:28:23] getJobUpdate start
+[15:28:23] getJobUpdate finished
+[15:28:24] getJobUpdate start
+[15:28:24] getJobUpdate finished
+[15:28:25] getJobUpdate start
+[15:28:25] getJobUpdate finished
+[15:28:26] getJobUpdate start
+[15:28:26] getJobUpdate finished
+[15:28:27] getJobUpdate start
+[15:28:27] getJobUpdate finished
+[15:28:28] getJobUpdate start
+[15:28:28] getJobUpdate finished
+[15:28:29] getJobUpdate start
+[15:28:29] getJobUpdate finished
+[15:28:30] getJobUpdate start
+[15:28:30] getJobUpdate finished
+[15:28:31] getJobUpdate start
+[15:28:31] getJobUpdate finished
+[15:28:32] getJobUpdate start
+[15:28:32] getJobUpdate finished
+[15:28:33] getJobUpdate start
+[15:28:33] getJobUpdate finished
+[15:28:34] getJobUpdate start
+[15:28:34] getJobUpdate finished
+[15:28:35] getJobUpdate start
+[15:28:35] getJobUpdate finished
+[15:28:36] getJobUpdate start
+[15:28:36] getJobUpdate finished
+[15:28:37] getJobUpdate start
+[15:28:37] getJobUpdate finished
+[15:28:38] getJobUpdate start
+[15:28:38] getJobUpdate finished
+[15:28:39] getJobUpdate start
+[15:28:39] getJobUpdate finished
+[15:28:40] getJobUpdate start
+[15:28:40] getJobUpdate finished
+[15:28:41] getJobUpdate start
+[15:28:41] getJobUpdate finished
+[15:28:42] getJobUpdate start
+[15:28:42] getJobUpdate finished
+[15:28:43] getJobUpdate start
+[15:28:43] getJobUpdate finished
+[15:28:44] getJobUpdate start
+[15:28:44] getJobUpdate finished
+[15:28:45] getJobUpdate start
+[15:28:45] getJobUpdate finished
+[15:28:46] getJobUpdate start
+[15:28:46] getJobUpdate finished
+[15:28:47] getJobUpdate start
+[15:28:47] getJobUpdate finished
+[15:28:48] getJobUpdate start
+[15:28:48] getJobUpdate finished
+[15:28:49] getJobUpdate start
+[15:28:49] getJobUpdate finished
+[15:28:51] getJobUpdate start
+[15:28:51] getJobUpdate finished
+[15:28:52] getJobUpdate start
+[15:28:52] getJobUpdate finished
+[15:28:53] getJobUpdate start
+[15:28:53] getJobUpdate finished
+[15:28:55] getJobUpdate start
+[15:28:55] getJobUpdate finished
+[15:28:56] getJobUpdate start
+[15:28:56] getJobUpdate finished
+[15:28:57] getJobUpdate start
+[15:28:57] getJobUpdate finished
+[15:28:58] getJobUpdate start
+[15:28:58] getJobUpdate finished
+[15:28:59] getJobUpdate start
+[15:28:59] getJobUpdate finished
+[15:29:00] getJobUpdate start
+[15:29:00] getJobUpdate finished
+[15:29:02] getJobUpdate start
+[15:29:02] getJobUpdate finished
+[15:29:03] getJobUpdate start
+[15:29:03] getJobUpdate finished
+[15:29:04] getJobUpdate start
+[15:29:04] getJobUpdate finished
+[15:29:05] getJobUpdate start
+[15:29:05] getJobUpdate finished
+[15:29:06] getJobUpdate start
+[15:29:06] getJobUpdate finished
+[15:29:07] getJobUpdate start
+[15:29:07] getJobUpdate finished
+[15:29:08] getJobUpdate start
+[15:29:09] getJobUpdate finished
+[15:29:10] getJobUpdate start
+[15:29:10] getJobUpdate finished
+[15:29:11] getJobUpdate start
+[15:29:11] getJobUpdate finished
+[15:29:12] getJobUpdate start
+[15:29:12] getJobUpdate finished
+[15:29:13] getJobUpdate start
+[15:29:14] getJobUpdate finished
+[15:29:15] getJobUpdate start
+[15:29:15] getJobUpdate finished
+[15:29:16] getJobUpdate start
+[15:29:16] getJobUpdate finished
+[15:29:17] getJobUpdate start
+[15:29:17] getJobUpdate finished
+[15:29:19] getJobUpdate start
+[15:29:19] getJobUpdate finished
+[15:29:20] getJobUpdate start
+[15:29:20] getJobUpdate finished
+[15:29:21] getJobUpdate start
+[15:29:21] getJobUpdate finished
+[15:29:22] getJobUpdate start
+[15:29:22] getJobUpdate finished
+[15:29:23] getJobUpdate start
+[15:29:23] getJobUpdate finished
+[15:29:25] getJobUpdate start
+[15:29:25] getJobUpdate finished
+[15:29:26] getJobUpdate start
+[15:29:26] getJobUpdate finished
+[15:29:27] getJobUpdate start
+[15:29:27] getJobUpdate finished
+[15:29:28] getJobUpdate start
+[15:29:28] getJobUpdate finished
+[15:29:29] getJobUpdate start
+[15:29:29] getJobUpdate finished
+[15:29:30] getJobUpdate start
+[15:29:30] getJobUpdate finished
+[15:29:32] getJobUpdate start
+[15:29:32] getJobUpdate finished
+[15:29:33] getJobUpdate start
+[15:29:33] getJobUpdate finished
+[15:29:34] getJobUpdate start
+[15:29:34] getJobUpdate finished
+[15:29:35] getJobUpdate start
+[15:29:35] getJobUpdate finished
+[15:29:36] getJobUpdate start
+[15:29:36] getJobUpdate finished
+[15:29:37] getJobUpdate start
+[15:29:38] getJobUpdate finished
+[15:29:39] getJobUpdate start
+[15:29:39] getJobUpdate finished
+[15:29:40] getJobUpdate start
+[15:29:40] getJobUpdate finished
+[15:29:41] getJobUpdate start
+[15:29:41] getJobUpdate finished
+[15:29:42] getJobUpdate start
+[15:29:42] getJobUpdate finished
+[15:29:43] getJobUpdate start
+[15:29:43] getJobUpdate finished
+[15:29:45] getJobUpdate start
+[15:29:45] getJobUpdate finished
+[15:29:46] getJobUpdate start
+[15:29:46] getJobUpdate finished
+[15:29:47] getJobUpdate start
+[15:29:47] getJobUpdate finished
+[15:29:48] getJobUpdate start
+[15:29:48] getJobUpdate finished
+[15:29:50] getJobUpdate start
+[15:29:50] getJobUpdate finished
+[15:29:51] getJobUpdate start
+[15:29:51] getJobUpdate finished
+[15:29:52] getJobUpdate start
+[15:29:52] getJobUpdate finished
+[15:29:53] getJobUpdate start
+[15:29:54] getJobUpdate finished
+[15:29:55] getJobUpdate start
+[15:29:55] getJobUpdate finished
+[15:29:56] getJobUpdate start
+[15:29:56] getJobUpdate finished
+[15:29:57] getJobUpdate start
+[15:29:57] getJobUpdate finished
+[15:29:58] getJobUpdate start
+[15:29:59] getJobUpdate finished
+[15:30:00] getJobUpdate start
+[15:30:00] getJobUpdate finished
+[15:30:01] getJobUpdate start
+[15:30:01] getJobUpdate finished
+[15:30:02] getJobUpdate start
+[15:30:02] getJobUpdate finished
+[15:30:04] getJobUpdate start
+[15:30:04] getJobUpdate finished
+[15:30:05] getJobUpdate start
+[15:30:05] getJobUpdate finished
+[15:30:06] getJobUpdate start
+[15:30:06] getJobUpdate finished
+[15:30:07] getJobUpdate start
+[15:30:07] getJobUpdate finished
+[15:30:09] getJobUpdate start
+[15:30:09] getJobUpdate finished
+[15:30:10] getJobUpdate start
+[15:30:10] getJobUpdate finished
+[15:30:11] getJobUpdate start
+[15:30:11] getJobUpdate finished
+[15:30:13] getJobUpdate start
+[15:30:13] getJobUpdate finished
+[15:30:14] getJobUpdate start
+[15:30:14] getJobUpdate finished
+[15:30:15] getJobUpdate start
+[15:30:15] getJobUpdate finished
+[15:30:17] getJobUpdate start
+[15:30:17] getJobUpdate finished
+[15:30:18] getJobUpdate start
+[15:30:18] getJobUpdate finished
+[15:30:19] getJobUpdate start
+[15:30:20] getJobUpdate finished
+[15:30:21] getJobUpdate start
+[15:30:21] getJobUpdate finished
+[15:30:22] getJobUpdate start
+[15:30:22] getJobUpdate finished
+[15:30:23] getJobUpdate start
+[15:30:24] getJobUpdate finished
+[15:30:25] getJobUpdate start
+[15:30:25] getJobUpdate finished
+[15:30:26] getJobUpdate start
+[15:30:26] getJobUpdate finished
+[15:30:28] getJobUpdate start
+[15:30:28] getJobUpdate finished
+[15:30:30] getJobUpdate start
+[15:30:30] getJobUpdate finished
+[15:30:32] getJobUpdate start
+[15:30:32] getJobUpdate finished
+[15:30:34] getJobUpdate start
+[15:30:34] getJobUpdate finished
+[15:30:36] getJobUpdate start
+[15:30:36] getJobUpdate finished
+[15:30:37] getJobUpdate start
+[15:30:37] getJobUpdate finished
+[15:30:39] getJobUpdate start
+[15:30:39] getJobUpdate finished
+[15:30:40] getJobUpdate start
+[15:30:40] getJobUpdate finished
+[15:30:42] getJobUpdate start
+[15:30:42] getJobUpdate finished
+[15:30:43] getJobUpdate start
+[15:30:44] getJobUpdate finished
+[15:30:45] getJobUpdate start
+[15:30:46] getJobUpdate finished
+[15:30:47] getJobUpdate start
+[15:30:48] getJobUpdate finished
+[15:30:49] getJobUpdate start
+[15:30:49] getJobUpdate finished
+[15:30:51] getJobUpdate start
+[15:30:51] getJobUpdate finished
+[15:30:53] getJobUpdate start
+[15:30:53] getJobUpdate finished
+[15:30:54] getJobUpdate start
+[15:30:54] getJobUpdate finished
+[15:30:56] getJobUpdate start
+[15:30:57] getJobUpdate finished
+[15:30:58] getJobUpdate start
+[15:30:58] getJobUpdate finished
+[15:31:00] getJobUpdate start
+[15:31:00] getJobUpdate finished
+[15:31:01] getJobUpdate start
+[15:31:02] getJobUpdate finished
+[15:31:03] getJobUpdate start
+[15:31:03] getJobUpdate finished
+[15:31:05] getJobUpdate start
+[15:31:05] getJobUpdate finished
+[15:31:06] getJobUpdate start
+[15:31:06] getJobUpdate finished
+[15:31:08] getJobUpdate start
+[15:31:08] getJobUpdate finished
+[15:31:10] setup_1/Design 1/Scenario 1 solver finished at Wed Dec 30 15:31:10 2020 on C940 with code = 0
+[15:31:10] Analysis::importSolverFiles = 0.081 sec
+[15:31:10] VizDataInterface::getBoundaryFEData = 0.092 sec
+[15:31:10] VizDataInterface::setupWallOutlineData = 0.01 sec
+[15:31:10] setup_1/Design 1/Scenario 1 job finished at Wed Dec 30 15:31:10 2020 on C940
+[15:33:18] Analysis::writeGBIFile = 0.465 sec
+[15:33:19] Login expiration: Wed Jan 13 12:04:26 2021
+[15:33:19] Token expiration: Fri Jan 1 12:04:26 2021
+[15:33:19] Analysis::exportJobFiles = 0.007 sec
+[15:33:19] setup_1/Design 1/Scenario 1 job started at Wed Dec 30 15:33:19 2020 on C940
+[15:33:19] setup_1/Design 1/Scenario 1 solver started at Wed Dec 30 15:33:19 2020 on C940
+[15:33:23] getJobUpdate start
+[15:33:24] CADModel::loadGeometryDatabase = 0.489 sec
+[15:33:24] VizDataInterface::getBoundaryFEData = 0.121 sec
+[15:33:24] VizDataInterface::setupWallOutlineData = 0.012 sec
+[15:33:24] getJobUpdate finished
+[15:33:24] Could not find message key: (solver, AnalyzeC, Turbulent Incompressible Flow is ON)
+[15:33:24] Could not find message key: (solver, AnalyzeC, Turbulence model: Standard k-epsilon)
+[15:33:24] Could not find message key: (solver, AnalyzeC, Intelligent Wall Formulation: OFF)
+[15:33:25] getJobUpdate start
+[15:33:25] getJobUpdate finished
+[15:33:26] getJobUpdate start
+[15:33:26] getJobUpdate finished
+[15:33:27] getJobUpdate start
+[15:33:27] getJobUpdate finished
+[15:33:27] getJobUpdate start
+[15:33:27] getJobUpdate finished
+[15:33:28] getJobUpdate start
+[15:33:28] getJobUpdate finished
+[15:33:29] getJobUpdate start
+[15:33:29] getJobUpdate finished
+[15:33:30] getJobUpdate start
+[15:33:30] getJobUpdate finished
+[15:33:31] getJobUpdate start
+[15:33:31] getJobUpdate finished
+[15:33:31] getJobUpdate start
+[15:33:32] getJobUpdate finished
+[15:33:32] getJobUpdate start
+[15:33:32] getJobUpdate finished
+[15:33:33] getJobUpdate start
+[15:33:33] getJobUpdate finished
+[15:33:35] getJobUpdate start
+[15:33:35] getJobUpdate finished
+[15:33:36] getJobUpdate start
+[15:33:36] getJobUpdate finished
+[15:33:37] getJobUpdate start
+[15:33:37] getJobUpdate finished
+[15:33:38] getJobUpdate start
+[15:33:38] getJobUpdate finished
+[15:33:39] getJobUpdate start
+[15:33:39] getJobUpdate finished
+[15:33:40] getJobUpdate start
+[15:33:40] getJobUpdate finished
+[15:33:42] getJobUpdate start
+[15:33:42] getJobUpdate finished
+[15:33:43] getJobUpdate start
+[15:33:43] getJobUpdate finished
+[15:33:44] getJobUpdate start
+[15:33:44] getJobUpdate finished
+[15:33:45] getJobUpdate start
+[15:33:45] getJobUpdate finished
+[15:33:47] getJobUpdate start
+[15:33:47] getJobUpdate finished
+[15:33:48] getJobUpdate start
+[15:33:48] getJobUpdate finished
+[15:33:49] getJobUpdate start
+[15:33:49] getJobUpdate finished
+[15:33:50] getJobUpdate start
+[15:33:50] getJobUpdate finished
+[15:33:51] getJobUpdate start
+[15:33:52] getJobUpdate finished
+[15:33:53] getJobUpdate start
+[15:33:53] getJobUpdate finished
+[15:33:54] getJobUpdate start
+[15:33:54] getJobUpdate finished
+[15:33:55] getJobUpdate start
+[15:33:55] getJobUpdate finished
+[15:33:57] getJobUpdate start
+[15:33:57] getJobUpdate finished
+[15:33:58] getJobUpdate start
+[15:33:58] getJobUpdate finished
+[15:33:59] getJobUpdate start
+[15:33:59] getJobUpdate finished
+[15:34:00] getJobUpdate start
+[15:34:00] getJobUpdate finished
+[15:34:02] getJobUpdate start
+[15:34:02] getJobUpdate finished
+[15:34:03] getJobUpdate start
+[15:34:03] getJobUpdate finished
+[15:34:04] getJobUpdate start
+[15:34:04] getJobUpdate finished
+[15:34:05] getJobUpdate start
+[15:34:06] getJobUpdate finished
+[15:34:07] getJobUpdate start
+[15:34:07] getJobUpdate finished
+[15:34:08] getJobUpdate start
+[15:34:08] getJobUpdate finished
+[15:34:09] getJobUpdate start
+[15:34:09] getJobUpdate finished
+[15:34:11] getJobUpdate start
+[15:34:11] getJobUpdate finished
+[15:34:12] getJobUpdate start
+[15:34:12] getJobUpdate finished
+[15:34:14] getJobUpdate start
+[15:34:14] getJobUpdate finished
+[15:34:15] getJobUpdate start
+[15:34:15] getJobUpdate finished
+[15:34:16] getJobUpdate start
+[15:34:16] getJobUpdate finished
+[15:34:18] getJobUpdate start
+[15:34:18] getJobUpdate finished
+[15:34:19] getJobUpdate start
+[15:34:19] getJobUpdate finished
+[15:34:20] getJobUpdate start
+[15:34:20] getJobUpdate finished
+[15:34:22] getJobUpdate start
+[15:34:22] getJobUpdate finished
+[15:34:24] getJobUpdate start
+[15:34:24] getJobUpdate finished
+[15:34:25] getJobUpdate start
+[15:34:25] getJobUpdate finished
+[15:34:27] getJobUpdate start
+[15:34:27] getJobUpdate finished
+[15:34:29] getJobUpdate start
+[15:34:29] getJobUpdate finished
+[15:34:31] getJobUpdate start
+[15:34:31] getJobUpdate finished
+[15:34:33] getJobUpdate start
+[15:34:33] getJobUpdate finished
+[15:34:35] getJobUpdate start
+[15:34:35] getJobUpdate finished
+[15:34:36] getJobUpdate start
+[15:34:36] getJobUpdate finished
+[15:34:38] getJobUpdate start
+[15:34:38] getJobUpdate finished
+[15:34:39] getJobUpdate start
+[15:34:39] getJobUpdate finished
+[15:34:41] getJobUpdate start
+[15:34:41] getJobUpdate finished
+[15:34:42] getJobUpdate start
+[15:34:42] getJobUpdate finished
+[15:34:44] getJobUpdate start
+[15:34:44] getJobUpdate finished
+[15:34:46] getJobUpdate start
+[15:34:46] getJobUpdate finished
+[15:34:48] getJobUpdate start
+[15:34:48] getJobUpdate finished
+[15:34:49] getJobUpdate start
+[15:34:49] getJobUpdate finished
+[15:34:51] getJobUpdate start
+[15:34:51] getJobUpdate finished
+[15:34:53] getJobUpdate start
+[15:34:53] getJobUpdate finished
+[15:34:55] getJobUpdate start
+[15:34:55] getJobUpdate finished
+[15:34:56] getJobUpdate start
+[15:34:56] getJobUpdate finished
+[15:34:57] getJobUpdate start
+[15:34:58] getJobUpdate finished
+[15:34:59] getJobUpdate start
+[15:34:59] getJobUpdate finished
+[15:35:00] getJobUpdate start
+[15:35:00] getJobUpdate finished
+[15:35:02] getJobUpdate start
+[15:35:02] getJobUpdate finished
+[15:35:03] getJobUpdate start
+[15:35:03] getJobUpdate finished
+[15:35:04] getJobUpdate start
+[15:35:05] getJobUpdate finished
+[15:35:06] getJobUpdate start
+[15:35:06] getJobUpdate finished
+[15:35:07] getJobUpdate start
+[15:35:07] getJobUpdate finished
+[15:35:08] getJobUpdate start
+[15:35:09] getJobUpdate finished
+[15:35:10] getJobUpdate start
+[15:35:10] getJobUpdate finished
+[15:35:11] getJobUpdate start
+[15:35:11] getJobUpdate finished
+[15:35:12] getJobUpdate start
+[15:35:13] getJobUpdate finished
+[15:35:14] getJobUpdate start
+[15:35:14] getJobUpdate finished
+[15:35:15] getJobUpdate start
+[15:35:15] getJobUpdate finished
+[15:35:17] getJobUpdate start
+[15:35:17] getJobUpdate finished
+[15:35:18] getJobUpdate start
+[15:35:18] getJobUpdate finished
+[15:35:19] getJobUpdate start
+[15:35:19] getJobUpdate finished
+[15:35:20] getJobUpdate start
+[15:35:20] getJobUpdate finished
+[15:35:22] getJobUpdate start
+[15:35:22] getJobUpdate finished
+[15:35:23] getJobUpdate start
+[15:35:23] getJobUpdate finished
+[15:35:24] getJobUpdate start
+[15:35:24] getJobUpdate finished
+[15:35:26] getJobUpdate start
+[15:35:26] getJobUpdate finished
+[15:35:27] getJobUpdate start
+[15:35:27] getJobUpdate finished
+[15:35:28] getJobUpdate start
+[15:35:29] getJobUpdate finished
+[15:35:30] getJobUpdate start
+[15:35:30] getJobUpdate finished
+[15:35:31] getJobUpdate start
+[15:35:31] getJobUpdate finished
+[15:35:32] getJobUpdate start
+[15:35:33] getJobUpdate finished
+[15:35:34] getJobUpdate start
+[15:35:34] getJobUpdate finished
+[15:35:35] getJobUpdate start
+[15:35:35] getJobUpdate finished
+[15:35:37] getJobUpdate start
+[15:35:37] getJobUpdate finished
+[15:35:38] getJobUpdate start
+[15:35:38] getJobUpdate finished
+[15:35:39] getJobUpdate start
+[15:35:39] getJobUpdate finished
+[15:35:41] getJobUpdate start
+[15:35:41] getJobUpdate finished
+[15:35:42] getJobUpdate start
+[15:35:42] getJobUpdate finished
+[15:35:44] getJobUpdate start
+[15:35:44] getJobUpdate finished
+[15:35:45] getJobUpdate start
+[15:35:45] getJobUpdate finished
+[15:35:46] getJobUpdate start
+[15:35:47] getJobUpdate finished
+[15:35:48] getJobUpdate start
+[15:35:48] getJobUpdate finished
+[15:35:49] getJobUpdate start
+[15:35:49] getJobUpdate finished
+[15:35:51] getJobUpdate start
+[15:35:51] getJobUpdate finished
+[15:35:52] getJobUpdate start
+[15:35:52] getJobUpdate finished
+[15:35:53] getJobUpdate start
+[15:35:54] getJobUpdate finished
+[15:35:55] getJobUpdate start
+[15:35:55] getJobUpdate finished
+[15:35:56] getJobUpdate start
+[15:35:56] getJobUpdate finished
+[15:35:58] getJobUpdate start
+[15:35:58] getJobUpdate finished
+[15:35:59] getJobUpdate start
+[15:35:59] getJobUpdate finished
+[15:36:01] getJobUpdate start
+[15:36:01] getJobUpdate finished
+[15:36:02] getJobUpdate start
+[15:36:02] getJobUpdate finished
+[15:36:04] getJobUpdate start
+[15:36:04] getJobUpdate finished
+[15:36:05] getJobUpdate start
+[15:36:05] getJobUpdate finished
+[15:36:07] getJobUpdate start
+[15:36:07] getJobUpdate finished
+[15:36:08] getJobUpdate start
+[15:36:09] getJobUpdate finished
+[15:36:10] getJobUpdate start
+[15:36:10] getJobUpdate finished
+[15:36:12] getJobUpdate start
+[15:36:12] getJobUpdate finished
+[15:36:14] getJobUpdate start
+[15:36:14] getJobUpdate finished
+[15:36:16] getJobUpdate start
+[15:36:16] getJobUpdate finished
+[15:36:17] getJobUpdate start
+[15:36:17] getJobUpdate finished
+[15:36:19] getJobUpdate start
+[15:36:19] getJobUpdate finished
+[15:36:21] getJobUpdate start
+[15:36:21] getJobUpdate finished
+[15:36:22] getJobUpdate start
+[15:36:22] getJobUpdate finished
+[15:36:24] getJobUpdate start
+[15:36:24] getJobUpdate finished
+[15:36:26] getJobUpdate start
+[15:36:26] getJobUpdate finished
+[15:36:28] getJobUpdate start
+[15:36:28] getJobUpdate finished
+[15:36:30] getJobUpdate start
+[15:36:30] getJobUpdate finished
+[15:36:31] getJobUpdate start
+[15:36:31] getJobUpdate finished
+[15:36:33] getJobUpdate start
+[15:36:33] getJobUpdate finished
+[15:36:35] getJobUpdate start
+[15:36:35] getJobUpdate finished
+[15:36:37] getJobUpdate start
+[15:36:37] getJobUpdate finished
+[15:36:38] getJobUpdate start
+[15:36:38] getJobUpdate finished
+[15:36:40] getJobUpdate start
+[15:36:40] getJobUpdate finished
+[15:36:42] getJobUpdate start
+[15:36:42] getJobUpdate finished
+[15:36:43] getJobUpdate start
+[15:36:43] getJobUpdate finished
+[15:36:45] getJobUpdate start
+[15:36:45] getJobUpdate finished
+[15:36:46] getJobUpdate start
+[15:36:46] getJobUpdate finished
+[15:36:48] getJobUpdate start
+[15:36:48] getJobUpdate finished
+[15:36:49] getJobUpdate start
+[15:36:49] getJobUpdate finished
+[15:36:50] getJobUpdate start
+[15:36:50] getJobUpdate finished
+[15:36:52] getJobUpdate start
+[15:36:52] getJobUpdate finished
+[15:36:53] getJobUpdate start
+[15:36:53] getJobUpdate finished
+[15:36:54] getJobUpdate start
+[15:36:54] getJobUpdate finished
+[15:36:56] getJobUpdate start
+[15:36:56] getJobUpdate finished
+[15:36:57] setup_1/Design 1/Scenario 1 solver finished at Wed Dec 30 15:36:57 2020 on C940 with code = 0
+[15:36:57] Analysis::importSolverFiles = 0.048 sec

@@ -1,0 +1,118 @@
+[12:04:20] Cannot find a flags file
+[12:04:20] Loading qm files
+[12:04:21] System language is English
+[12:04:21] material searching atC:\ProgramData\Autodesk\CFD 2021
+[12:04:22] Completed pre-event loop tasks in 1.633 sec
+[12:04:22] Start processing tasks
+[12:04:22] Starting task: Clt::InitializationTasks::initializeMainWindowUI
+[12:04:22] Creating main view...
+[12:04:23] Creating actions...
+[12:04:23] Creating quick widgets...
+[12:04:23] Creating panel...
+[12:04:23] Creating status bar...
+[12:04:23] Creating tool bar...
+[12:04:23] Initializing menu...
+[12:04:23] Task finished in 1.34 sec
+[12:04:23] Starting task: Clt::InitializationTasks::initializeApplicationFrame
+[12:04:24] Task finished in 0.80 sec
+[12:04:24] Starting task: Clt::InitializationTasks::initializeWebServices
+[12:04:27] Task finished in 2.64 sec
+[12:04:27] Starting task: Clt::InitializationTasks::initializeAirLook
+[12:04:29] Task finished in 1.56 sec
+[12:04:29] Starting task: Clt::InitializationTasks::initializeServerGroup
+[12:04:29] Task finished in 0.00 sec
+[12:04:29] Starting task: Clt::InitializationTasks::initializeHelpManager
+[12:04:29] Task finished in 0.00 sec
+[12:04:29] Starting task: Clt::InitializationTasks::setMainWindowUIState
+[12:04:29] Task finished in 0.23 sec
+[12:04:29] Starting task: Clt::InitializationTasks::assignShortcuts
+[12:04:29] Task finished in 0.00 sec
+[12:04:29] Starting task: Clt::InitializationTasks::initializeScriptJobEvents
+[12:04:29] Task finished in 0.00 sec
+[12:04:29] Starting task: Clt::InitializationTasks::initializeGAT
+[12:04:29] Task finished in 0.00 sec
+[12:04:29] Starting task: Clt::InitializationTasks::createGeoMeshMessageHandler
+[12:04:29] Task finished in 0.01 sec
+[12:04:29] Starting task: Clt::InitializationTasks::initializeLicensing
+[12:04:29] Creating license manager...
+[12:04:29] Initializing license manager...
+[12:04:29] Listen for lost license signal...
+[12:04:29] Task finished in 0.00 sec
+[12:04:29] Starting task: Checkout CFD UI
+[12:04:29] Authorizing CFD UI...
+[12:04:32] Success
+[12:04:32] Task finished in 3.00 sec
+[12:04:32] Starting task: Clt::InitializationTasks::checkForLicensingError
+[12:04:32] Set CFD Advanced license to User
+[12:04:32] Set CFD Motion license to User
+[12:04:32] Task finished in 0.17 sec
+[12:04:32] Starting task: Clt::InitializationTasks::showMainWindow
+[12:04:32] Loading layout...
+[12:04:33] Task finished in 0.80 sec
+[12:04:33] Starting task: Clt::InitializationTasks::hideSplashScreen
+[12:04:33] Task finished in 0.00 sec
+[12:04:33] Starting task: Clt::InitializationTasks::initializeCustomResults
+[12:04:33] Task finished in 0.00 sec
+[12:04:33] Starting task: Clt::InitializationTasks::handleExternalLaunchFromCAD
+[12:04:33] Task finished in 0.00 sec
+[12:04:33] Starting task: Clt::InitializationTasks::initializePythonHooks
+[12:04:33] Loading CFD resource file...
+[12:04:34] Task finished in 1.22 sec
+[12:04:34] Starting task: Clt::InitializationTasks::runScript
+[12:04:34] Task finished in 0.00 sec
+[12:04:34] Finished processing tasks in 12.41 sec
+[12:06:11] ### Critical: E:\CI\Jenkins\master\Projects\Client\source\clt_preproperty.cpp 1505
+All properties are constant, so the Environment dialog is not available
+[12:08:10] Analysis::writeGBIFile = 0.001 sec
+[12:08:10] Login expiration: Wed Jan 13 12:04:26 2021
+[12:08:10] Token expiration: Fri Jan 1 12:04:26 2021
+[12:08:10] Analysis::exportJobFiles = 0.007 sec
+[12:08:10] Waterturbine/Design 1/Scenario 1 job started at Wed Dec 30 12:08:10 2020 on C940
+[12:08:11] Waterturbine/Design 1/Scenario 1 mesher started at Wed Dec 30 12:08:10 2020 on C940
+[12:08:12] Waterturbine/Design 1/Scenario 1 mesher finished at Wed Dec 30 12:08:12 2020 on C940 with code = 0
+[12:08:12] Analysis::importMesherFiles = 0.001 sec
+[12:08:12] CADModel::loadGeometryDatabase = 0.045 sec
+[12:08:12] Mesher finished copying files
+[12:08:12] Waterturbine/Design 1/Scenario 1 solver started at Wed Dec 30 12:08:12 2020 on C940
+[12:08:14] getJobUpdate start
+[12:08:14] VizDataInterface::getBoundaryFEData = 0.012 sec
+[12:08:14] VizDataInterface::setupWallOutlineData = 0.001 sec
+[12:08:14] VizDataInterface::getBoundaryFEData = 0.015 sec
+[12:08:14] VizDataInterface::setupWallOutlineData = 0.002 sec
+[12:08:14] getJobUpdate finished
+[12:08:15] Waterturbine/Design 1/Scenario 1 solver finished at Wed Dec 30 12:08:15 2020 on C940 with code = 0
+[12:08:15] Analysis::importSolverFiles = 0.005 sec
+[12:08:15] VizDataInterface::getBoundaryFEData = 0.009 sec
+[12:08:15] VizDataInterface::setupWallOutlineData = 0.002 sec
+[12:08:15] Waterturbine/Design 1/Scenario 1 job finished at Wed Dec 30 12:08:15 2020 on C940
+[12:13:16] Analysis::writeGBIFile = 0.029 sec
+[12:13:16] Login expiration: Wed Jan 13 12:04:26 2021
+[12:13:16] Token expiration: Fri Jan 1 12:04:26 2021
+[12:13:16] Analysis::exportJobFiles = 0.03 sec
+[12:13:16] Waterturbine/Design 1/Scenario 1 job started at Wed Dec 30 12:13:16 2020 on C940
+[12:13:17] Waterturbine/Design 1/Scenario 1 solver started at Wed Dec 30 12:13:16 2020 on C940
+[12:13:18] getJobUpdate start
+[12:13:19] CADModel::loadGeometryDatabase = 0.046 sec
+[12:13:19] VizDataInterface::getBoundaryFEData = 0.014 sec
+[12:13:19] VizDataInterface::setupWallOutlineData = 0.002 sec
+[12:13:19] getJobUpdate finished
+[12:13:20] Waterturbine/Design 1/Scenario 1 solver finished at Wed Dec 30 12:13:20 2020 on C940 with code = 0
+[12:13:20] Analysis::importSolverFiles = 0.004 sec
+[12:13:20] VizDataInterface::getBoundaryFEData = 0.01 sec
+[12:13:20] VizDataInterface::setupWallOutlineData = 0.002 sec
+[12:13:20] Waterturbine/Design 1/Scenario 1 job finished at Wed Dec 30 12:13:20 2020 on C940
+[12:13:53] Login expiration: Wed Jan 13 12:04:26 2021
+[12:13:53] Token expiration: Fri Jan 1 12:04:26 2021
+[12:13:53] Analysis::exportJobFiles = 0.025 sec
+[12:13:54] Waterturbine/Design 1/Scenario 1 job started at Wed Dec 30 12:13:54 2020 on C940
+[12:13:54] Waterturbine/Design 1/Scenario 1 solver started at Wed Dec 30 12:13:54 2020 on C940
+[12:13:56] getJobUpdate start
+[12:13:56] VizDataInterface::getBoundaryFEData = 0.013 sec
+[12:13:56] VizDataInterface::setupWallOutlineData = 0.003 sec
+[12:13:56] getJobUpdate finished
+[12:13:56] getJobUpdate start
+[12:13:56] getJobUpdate finished
+[12:13:56] getJobUpdate start
+[12:13:56] getJobUpdate finished
+[12:13:57] Waterturbine/Design 1/Scenario 1 solver finished at Wed Dec 30 12:13:57 2020 on C940 with code = 0
+[12:13:57] Analysis::importSolverFiles = 0.004 sec

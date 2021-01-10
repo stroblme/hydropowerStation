@@ -1,0 +1,86 @@
+﻿ *** CFD Summary File Output ***
+
+ CFD 2021 (2021) [20201120]
+
+ Job Name = Scenario 1   Date created: Wed Dec 30 12:13:56 2020
+
+
+ *** Analysis Information 
+ Steady State is ON
+
+ *** Field Variable Results Summary For Iteration 9
+
+
+  Var      Mean          at      Max          at      Min
+ Vx Vel  +0.00000e+00    989 +0.00000e+00    467 +0.00000e+00 cm/s
+ Vy Vel  +0.00000e+00    989 +0.00000e+00    467 +0.00000e+00 cm/s
+ Vz Vel  +0.00000e+00    989 +0.00000e+00    467 +0.00000e+00 cm/s
+ Press  +0.00000e+00    989 +0.00000e+00    467 +0.00000e+00 dyne/cm^2
+ Temp  +0.00000e+00    989 +0.00000e+00    467 +0.00000e+00 C
+ TurbK  +0.00000e+00      0 +0.00000e+00      0 +0.00000e+00 cm^2/s^2
+ TurbD  +0.00000e+00      0 +0.00000e+00      0 +0.00000e+00 cm^2/s^3
+ Scal1  +0.00000e+00    989 +0.00000e+00    467 +0.00000e+00  
+ PTotl  +0.00000e+00    989 +0.00000e+00    467 +0.00000e+00 dyne/cm^2
+ EVisc  +0.00000e+00    989 +0.00000e+00    467 +0.00000e+00 g/cm-s
+ ECond  +0.00000e+00    989 +0.00000e+00    467 +0.00000e+00 W/cm-K
+ Dens  +1.05000e+00    989 +1.05000e+00    467 +1.05000e+00 g/cm^3
+ Visc  +0.00000e+00    989 +0.00000e+00    467 +0.00000e+00 g/cm-s
+ Cond  +1.53000e-03    989 +1.53000e-03    467 +1.53000e-03 W/cm-K
+ SpecH  +2.05000e+00    989 +2.05000e+00    467 +2.05000e+00 J/g-K
+ Emiss  +0.00000e+00    989 +0.00000e+00    467 +0.00000e+00  
+ Transmiss  +0.00000e+00      0 +0.00000e+00      0 +0.00000e+00  
+ WRough  +0.00000e+00      0 +0.00000e+00      0 +0.00000e+00 cm
+ SeeBeck  +0.00000e+00      0 +0.00000e+00      0 +0.00000e+00 V/K
+ SHGC  +0.00000e+00      0 +0.00000e+00      0 +0.00000e+00 
+ Ufactor  +0.00000e+00      0 +0.00000e+00      0 +0.00000e+00 
+ GenT  +3.16228e-02    989 +3.16228e-02    467 +3.16228e-02 1/s
+
+
+*** Openings ***
+
+
+          *** Inlet 1 ***
+
+  Surface ID = 14
+
+  Node near Minimum X,Y,Z of opening = 6
+
+  Minimum X,Y,Z of opening = 1.393004, 0.000000, 12.289095
+
+     Mass Flow In             = 0 g/s
+     Volume Flow In          = 0 cm^3/s
+     Reynolds Number         = 0
+     Inlet Bulk Pressure     = 0 dyne/cm^2
+     Inlet Bulk Temperature  = 0 C
+     Inlet Mach Number       = 0
+
+  Total Mass Flow In     = 0 g/s
+
+  Total Vol. Flow In     = 0 cm^3/s
+
+
+          *** Statistics for Velocity Magnitude ***
+
+  Value Range [cm/s]             Percent Volume
+  0.000000 - 0.000000        100.000000
+Mean Value = 0.000000 , Standard Deviation = 0.000000 
+
+
+*** Sum of Fluid Forces on Walls ***
+   ShearX, PressX =            0             0   dynes
+   ShearY, PressY =            0             0   dynes
+   ShearZ, PressZ =            0             0   dynes
+
+*** Analysis Statistics: 
+
+ Input:                2 seconds 
+ Analysis:             0 seconds 
+ Output:               0 seconds 
+ Total:                2 seconds 
+
+ Headnode process dynamic memory 5 Mbytes
+ Computenode process 0 dynamic memory 1 Mbytes
+ Computenode process 1 dynamic memory 1 Mbytes
+ Computenode process 2 dynamic memory 1 Mbytes
+ Computenode process 3 dynamic memory 1 Mbytes
+ 

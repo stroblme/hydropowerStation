@@ -1,0 +1,7 @@
+<cfd_design_studies version="21.0.20201120" user_name="Melvin Strobl">
+ <design_study folder="X:\waterturbine/setup_1" name="setup_1" study_id="adb0b58b-9ad3-4eab-afcc-500b20858b51" instance_id="id_not_defined">
+  <design launcher_type="CP_ASM_INVENTOR_IMPORT" name="Design 1" lock_status="false" model_id="setup.cfdsmt">
+   <analysis name="Scenario 1"/>
+  </design>
+ </design_study>
+</cfd_design_studies>
